@@ -22,7 +22,8 @@ background_image:
 # show the motto
 # otherwise It shows the site description
 motto: true
-
+ocean:
+  overlay: true
 #index-style: pure or cart
 index_style: pure
 
