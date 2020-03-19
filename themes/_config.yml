@@ -21,7 +21,8 @@ background_image:
 
 # show the motto
 # otherwise It shows the site description
-motto: true
+motto:
+    enable: true
 ocean:
   over: true
   path: /images/ocean/
