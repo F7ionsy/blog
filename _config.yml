@@ -1,0 +1,165 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: F7ionsy's blog
+subtitle:
+description: 李恒东
+keywords:
+author: F7ionsy
+language: zh-CN
+timezone: 'Asia/Shanghai'
+since: 2018
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://lihengdong.com/
+root: /
+baseurl: https://lihengdong.com/home/
+permalink: :year/:month/:day/:title/
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: false
+  line_number: false
+  auto_detect: true
+  tab_replace: true
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'default'
+  line_number: false    # default false
+
+
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 7
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 5
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: hollow
+search:
+  path: search.json
+  zipPath: search.zip
+  versionPath: searchVersion.txt
+  field: post
+  #field: post, page or all
+  #field: post, page or all
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository:
+    github: https://github.com/F7ionsy/F7ionsy.github.io.git
+    ##coding: https://git.dev.tencent.com/f7ionsy/blog.git
+  branch: master
+ 
+# hexo-neat
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css  
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+#  置顶文章 
+excerpt:
+  depth: 2
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
+
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'  
+#  备份hexo源文件
+backup:
+    type: git
+    repository:
+       github: https://github.com/F7ionsy/F7ionsy.github.io.git,hexo
+       
+# hexo-hide-posts
+hide_posts:
+  # Change the filter name to fit your need
+  filter: hidden
+  # Generators which you want to expose all posts (include hidden ones) to.
+  # Common generators: index, tag, category, archive, sitemap, feed, etc.
+  public_generators: []
+  # Add "noindex" meta tag to prevent hidden posts from being indexed by search engines
+  noindex: true
+       
+## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶
