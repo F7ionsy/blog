@@ -24,7 +24,7 @@ background_image:
 motto:
     enable: true
 ocean:
-  over: true
+  overlay: true
   path: /images/ocean/
   brand: /images/hexo-inverted.svg
 #index-style: pure or cart
