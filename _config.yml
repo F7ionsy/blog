@@ -127,10 +127,6 @@ neat_js:
     - '**/jquery.fancybox.pack.js'
     - '**/index.js'  
 #  备份hexo源文件
-backup:
-    type: git
-    repository:
-       github: https://github.com/F7ionsy/F7ionsy.github.io.git,hexo
        
 # hexo-hide-posts
 hide_posts:
