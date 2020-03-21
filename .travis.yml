@@ -48,7 +48,6 @@ env:
 
 notifications:
   email:
-    - admin@lihengdong.com
     - 1223981419@qq.com
   on_success: change
   on_failure: always
