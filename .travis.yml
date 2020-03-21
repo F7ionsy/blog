@@ -43,6 +43,8 @@ branches:
   - master 
 # GH_REF 仓库地址
 notifications:
+  email:
+    - 1223981419@qq.com
   on_success: change
   on_failure: always
 env:
