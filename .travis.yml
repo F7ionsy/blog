@@ -42,11 +42,11 @@ branches:
   only:
   - master 
 # GH_REF 仓库地址
+env:
+    global:
+        - GH_REF: github.com/F7ionsy/F7ionsy.github.io.git
 notifications:
   email:
     - 1223981419@qq.com
   on_success: change
   on_failure: always
-env:
-    global:
-        - GH_REF: github.com/F7ionsy/F7ionsy.github.io.git
