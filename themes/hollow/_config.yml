@@ -1,0 +1,32 @@
+# Default post title
+default_post_title: F7ionsy
+
+#Date Format
+date_format: YYYY 年 MM 月 DD 日
+
+# Comment. 
+comments:
+  # Disqus comment
+  disqus_shortname: f7ionsy
+
+# Google Analytics Tracking ID
+google_analytics: 
+
+# Register service worker
+service_worker: true
+
+# Local search with atom.xml, dependency hexo-generator-feed plugin
+local_search: false
+
+# using viewer.js to view image
+# https://fengyuanchen.github.io/viewerjs/
+image_viewer: true
+
+ocean:
+  overlay: true
+  path: /images/ocean/
+  brand: /images/hexo-inverted.svg
+  
+motto:
+    enable: true
+    
