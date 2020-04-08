@@ -10,7 +10,7 @@ comments:
   disqus_shortname: f7ionsy
 
 # Google Analytics Tracking ID
-google_analytics: 
+google_analytics: UA-163158407-1
 
 # Register service worker
 service_worker: true
