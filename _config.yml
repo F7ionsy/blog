@@ -17,7 +17,7 @@ since: 2018
 url: https://lihengdong.com/
 root: /
 baseurl: https://lihengdong.com/home/
-permalink: post/:urlname/
+permalink: posts/:abbrlink.html
 
 # Directory
 source_dir: source
