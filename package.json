@@ -5,15 +5,15 @@
   "hexo": {
     "version": "3.7.1"
   },
-  "scripts": { 
-  "sync": "yuque-hexo sync",
+  "scripts": {
+    "sync": "yuque-hexo sync",
     "clean:yuque": "yuque-hexo clean",
     "deploy": "npm run sync && hexo clean && hexo g -d",
     "dev": "hexo clean && hexo server"
   },
-
   "dependencies": {
     "hexo": "^3.7.0",
+    "hexo-abbrlink": "^2.0.5",
     "hexo-deployer-git": "^0.3.1",
     "hexo-excerpt": "^1.1.4",
     "hexo-generator-archive": "^0.1.5",
@@ -35,16 +35,17 @@
     "yuque-hexo": "^1.6.2"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
     "hexo-util": "^1.9.0"
   },
-  "yuqueConfig": { 
-  "baseUrl": "https://www.yuque.com/api/v2", 
-  "login": "f7iosny", 
-  "repo": "blog", 
-  "mdNameFormat": "title", 
-  "postPath": "source/_posts/yuque", 
-  "token":"hRn79Mh7o1G9HWHJUg4W1JOYIuwW9X3HMqVnRBBW",
-  "onlyPublished": false 
+  "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "f7iosny",
+    "repo": "blog",
+    "mdNameFormat": "title",
+    "postPath": "source/_posts/yuque",
+    "token": "hRn79Mh7o1G9HWHJUg4W1JOYIuwW9X3HMqVnRBBW",
+    "onlyPublished": false
   }
-
 }
