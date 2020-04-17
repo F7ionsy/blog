@@ -2,6 +2,7 @@
 title: Github pages 使用双域名访问
 date: 2019-08-15 22:45:16
 tags: 技术类
+abbrlink: Netlify
 ---
 
 最近买了个新域名[F7ionsy.me](https://f7ionsy.me/)，因为国情在此，`.me`域名国内已经无法注册和购买使用，没办法，只能去国外转转。货比三家之后，选择了[porkbun.com](https://porkbun.com/)家的。虽然他家不支持支付宝，但是国内的信用卡可以注册`Paypal`，绑定信用卡，`Paypal`支付，整个过程三分钟不到。这里要吐槽一下国内的支付应用，注册流程复杂且漫长，无力吐槽。可能还是因为国情吧，╮(╯▽╰)╭无奈。

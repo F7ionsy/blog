@@ -3,7 +3,7 @@ title: Markdown可視化編輯器
 date: 2018-09-05 01:11:09
 tags: Markdown
 categories: Markdown
-cover: img/Markdown.png
+abbrlink: Markdown
 ---
 **我的在线编辑器：**[点击访问](http://lihengdong.com/editor/ "点击访问")
 

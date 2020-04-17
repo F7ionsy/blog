@@ -2,6 +2,7 @@
 title: Yi · 疫
 date: 2020-02-07 18:34:40
 tags: 記忆碎片
+abbrlink: yi
 ---
 
 这场瘟疫，没什么好说的。
