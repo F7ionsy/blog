@@ -7,7 +7,7 @@ abbrlink: Netlify
 
 最近买了个新域名[F7ionsy.me](https://f7ionsy.me/)，因为国情在此，`.me`域名国内已经无法注册和购买使用，没办法，只能去国外转转。货比三家之后，选择了[porkbun.com](https://porkbun.com/)家的。虽然他家不支持支付宝，但是国内的信用卡可以注册`Paypal`，绑定信用卡，`Paypal`支付，整个过程三分钟不到。这里要吐槽一下国内的支付应用，注册流程复杂且漫长，无力吐槽。可能还是因为国情吧，╮(╯▽╰)╭无奈。
 
-![snipaste_20190815_233200.png](https://f7ionsy-1251389397.cos.ap-shanghai.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_233200.png)
+![snipaste_20190815_233200.png](http://f7ionsy-1251389397.file.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_233200.png)
 
 买好了域名，国内时打不开的，嘿我这个暴脾气。国内的DNS污染也太严重了，porkbun.com官方提供的DNS解析国内时无效的，无奈换成了腾讯云的，蛮以为这样就可以像之前设置[lihengdong.com](https://lihengdong.com/)一样直接指向`Github`仓库就ok了。然后找了半天才发现`Github pages`不支持绑定两个域名。这咋办，不能让新买的域名吃灰吧，于是去Google上找教程，搜了一圈也都是些二级跳转啥的，这不行，二级跳转也太慢了，虽然能访问，但是速度就是蜗牛。
 
@@ -39,21 +39,21 @@ abbrlink: Netlify
 
 配置好之后，打开就是这个样子了，每一次自动部署都有logs。让我没想到的是，Netlify提供的DNS解析国内不仅可以使用甚至速度比腾讯云的还快了100ms左右，来来回回曲曲折折，没想到在这里曲线救国，哈哈哈。
 
-![snipaste_20190815_232008.png](https://f7ionsy-1251389397.cos.ap-shanghai.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232008.png)
+![snipaste_20190815_232008.png](http://f7ionsy-1251389397.file.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232008.png)
 
 相关：
 
 添加域名记录集时，要注意根据Netlify上的提示添加ALIAS、A和txt记录，**切记不要在Netlify里添加域名相关的DNS和解析记录，一定要去域名的控制台修改。**
 
-![snipaste_20190815_232419.png](https://f7ionsy-1251389397.cos.ap-shanghai.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232419.png)
+![snipaste_20190815_232419.png](http://f7ionsy-1251389397.file.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232419.png)
 
 DNS配置完成的样子：
 
-![snipaste_20190815_232754.png](https://f7ionsy-1251389397.cos.ap-shanghai.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232754.png)
+![snipaste_20190815_232754.png](http://f7ionsy-1251389397.file.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232754.png)
 
 SSL证书配置完成的样子：
 
-![snipaste_20190815_232844.png](https://f7ionsy-1251389397.cos.ap-shanghai.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232844.png)
+![snipaste_20190815_232844.png](http://f7ionsy-1251389397.file.myqcloud.com/image/Github%20pages%20%E4%BD%BF%E7%94%A8%E5%8F%8C%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE/snipaste_20190815_232844.png)
 
 #仅作记录，可能**无法**提供详细参考和教程使用，请知悉。
 
