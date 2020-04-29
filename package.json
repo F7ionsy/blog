@@ -33,7 +33,7 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
     "markdown-it-emoji": "^1.4.0",
-    "yuque-hexo": "^1.6.2"
+    "yuque-hexo": "^1.6.5"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",
